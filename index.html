@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> header responsive, icons & forms</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"> </script>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+	<div class="header">
+		<a href="">LOGO</a>
+		<nav>
+			<ul class="nav">
+				<li>home</li>
+				<li>news</li>
+				<li>contant</li>
+			</ul>
+		</nav>
+		<div class="burger-icon">
+			<i class="fas fa-bars"></i>
+			<div class="mobile-nav">
+				<ul class="mobile-nav">
+					<li>home</li>
+					<li>news</li>
+					<li>contant</li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+
+	<form action="">
+		<div>
+			<label for="username">Username</label>
+			<input type="text" name="username" id="username" placeholder="please write your name">
+		</div>
+		<div>
+			<label for="email">E-mail</label>
+			<input type="email" name="email" id="email" placeholder="please write your email" required>
+		</div>
+		<div>
+			<label for="number">mobile</label>
+			<input type="number" name="mobile-number" id="mobile-number" placeholder="566379228" readonly>
+		</div>
+		<div>
+			<label for="file">გთხოვთ ატვირთოთ ფაილი</label>
+			<input type="file" name="file" id="file" >
+		</div>
+
+		<div>
+			<label for="date">გთხოვთ აირჩიეთ თარიღი</label>
+			<input type="date" name="date" id="date" >
+		</div>
+		<div>
+			<label for="search">ძიება</label>
+			<input type="search" name="search" id="search" >
+		</div>
+		<div>
+			<label for="password">ძიება</label>
+			<input type="password" name="search" id="search" maxlength="4" >
+		</div>
+		<div class="radio-forms">
+			<input type="radio" name="gender" id="male">
+			<label for="male">male</label>
+			<input type="radio" name="gender1" id="female">
+			<label for="female">female</label>
+			<input type="radio" name="gender2" id="other">
+			<label for="other">other</label>
+		</div>
+		<div class="checkbox">
+			<input type="checkbox" id="vehicle1" name="vehicle" value="Bike">
+			 <label for="vehicle1"> I have a bike</label>
+			 <input type="checkbox" id="vehicle2" name="vehicle" value="Car">
+			 <label for="vehicle2"> I have a car</label>
+			 <input type="checkbox" id="vehicle3" name="vehicle" value="Boat">
+			 <label for="vehicle3"> I have a boat</label>
+		</div>
+		<textarea id="textarea" cols="50" rows="5"></textarea>
+
+		<button>log in</button>
+	</form>
+
+
+
+
+	<!-- <div class="social-icons">
+		<a href="https://www.youtube.com/"><i class="fab fa-youtube youtube-icon"></i></a>
+		<i class="fab fa-facebook"></i>
+		<i class="icon-icon1"></i>
+	</div> -->
+
+</body>
+</html>

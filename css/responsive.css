@@ -1,0 +1,8 @@
+@media (max-width: 500px){
+	.burger-icon{
+		display: block;
+	}
+	.nav{
+		display: none;
+	}
+}
